@@ -2,8 +2,6 @@ name: プルリクエスト作成時の説明への追加テキストの埋め�
 on:
   pull_request:
     types: [ opened ]
-    branches-ignore:
-      - 'main'
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
